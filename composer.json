@@ -1,0 +1,19 @@
+{
+    "name": "eran24/hello",
+    "description": "My first Composer project",
+    "authors": [
+        {
+            "name": "meysam mahmoudi",
+            "email": "maysam69@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Hello": "src/"
+        }
+    }
+}
